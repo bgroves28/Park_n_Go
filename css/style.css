@@ -1,0 +1,47 @@
+header {
+    background-color: black;
+}
+
+body {
+    background-color: black;
+    color: white;
+   
+}
+
+.myText {
+    color: white;
+}
+
+#forgotPass {
+    text-align: right;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.heading-txt {
+    font-family: 'Lexend', sans-serif;
+}
+
+.btn-txt {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: #FFC857;
+}
+
+.body-copy {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+}
+
+.signature-txt {
+    color:#FFC857;
+}
+
+ {
+    background-color: white;
+}
