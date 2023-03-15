@@ -1,11 +1,18 @@
 header {
     background-color: black;
+    padding: 20px;
 }
 
 body {
+    padding: 20px;
     background-color: black;
     color: white;
-   
+    font-family: 'Lexend', sans-serif;
+
+}
+
+.newbie {
+    text-align: center;
 }
 
 .myText {
@@ -14,6 +21,7 @@ body {
 
 #forgotPass {
     text-align: right;
+    font-weight: 100;
 }
 
 .center {
@@ -23,11 +31,28 @@ body {
     width: 50%;
 }
 
-.heading-txt {
-    font-family: 'Lexend', sans-serif;
+h1 {
+    font-weight:normal;
+}
+
+h2 {
+    font-weight:lighter;
+}
+
+input {
+    width: 75%;
+}
+
+.btn {
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    width: 75%;
+
 }
 
 .btn-txt {
+    color: black;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     background-color: #FFC857;
@@ -39,9 +64,18 @@ body {
 }
 
 .signature-txt {
-    color:#FFC857;
+    color: #FFC857;
 }
 
- {
-    background-color: white;
+form {
+    margin: auto;
+    padding: 25px;
 }
+
+input {
+    padding: 20px;
+    height: 20px;
+    border-radius: 12px;
+}
+
+
