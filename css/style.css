@@ -44,7 +44,7 @@ h2 {
 
 input {
     width: 100%;
-    padding:12px;
+    padding: 12px;
     height: 20px;
     border-radius: 12px;
 }
@@ -101,10 +101,58 @@ a {
     display: flex;
     justify-content: space-between;
 }
+
 .name {
     color: #FFC857;
 }
+
 .together {
     display: flex;
     gap: 10px;
+}
+
+.underline {
+    text-decoration: underline #FFC857;
+    text-decoration-thickness: 3px;
+}
+
+.card {
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    background-color: #212121;
+    border-radius: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 126px;
+}
+
+.logo_icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 19px;
+    
+}
+.footer-icons {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+}
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 8px;
 }
