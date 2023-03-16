@@ -35,7 +35,7 @@ body {
 }
 
 h1 {
-   
+
     font-family: 'Lexend';
     font-weight: bold;
     font-size: 30;
@@ -145,15 +145,17 @@ footer {
     align-items: center;
     padding: 0px;
     gap: 19px;
-    
+
 }
+
 .footer-icons {
     display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
 }
+
 .footer-right {
     display: flex;
     flex-direction: column;
@@ -165,39 +167,74 @@ gap: 16px;
 
 /* The side navigation menu */
 .sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
     right: 0;
-    background-color: #FFC857; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-    
-  }
-  
-  /* The navigation menu links */
-  .sidenav a {
+    background-color: #FFC857;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+
+}
+
+/* The navigation menu links */
+.sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color:black;
+    color: black;
     display: block;
     transition: 0.3s;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
     color: #f1f1f1;
-  }
-  
-  /* Position and style the close button (top right corner) */
-  .sidenav .closebtn {
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
+}
+
+.sidenav_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+}
+
+.sidenav_header h2 {
+    color: black;
+}
+
+hr {
+    border: 2px solid black;
+    width: 75%;
+}
+
+.sidenav_options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px;
+    gap: 24px;
+
+}
