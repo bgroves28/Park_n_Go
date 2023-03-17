@@ -6,6 +6,7 @@ header {
     padding-left: 0;
     padding-right: 0;
 }
+
 /**********************************/
 /*body CSS*/
 body {
@@ -15,13 +16,16 @@ body {
     font-family: 'Poppins', sans-serif;
 
 }
+
 .body-less-space {
     line-height: 100%;
 }
+
 .body-copy {
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
 }
+
 /**********************************/
 
 .newbie {
@@ -49,6 +53,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
 /**********************************/
 /*h# CSS*/
 h1 {
@@ -69,10 +74,11 @@ h3 {
     font-weight: 500;
     font-size: 20;
 }
+
 /**********************************/
 
 input {
-    color:white;
+    color: white;
     width: 100%;
     padding: 12px;
     height: 20px;
@@ -80,7 +86,7 @@ input {
     background-color: #212121;
     font-family: 'Poppins';
     font-size: 16px;
-    
+
 
 }
 
@@ -121,7 +127,7 @@ input {
 form {
     margin: auto;
     padding: 25px;
-    
+
 }
 
 .container_input {
@@ -135,7 +141,7 @@ form {
     background-color: #212121;
     border-radius: 10px;
     margin-bottom: 16px;
-    
+
 }
 
 .search_venue {
@@ -229,6 +235,7 @@ hr {
 .faq_body {
     font-size: 16px;
 }
+
 /**********************************/
 
 .flex_row_center {
@@ -337,14 +344,18 @@ hr {
     gap: 24px;
 
 }
+
 /**********************************/
 /* Footer CSS*/
 footer {
+
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding: 20px;
-    gap: 126px;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 16px;
+    gap: 8px;
+
 }
 
 .footer-icons {
@@ -361,5 +372,5 @@ footer {
     justify-content: center;
     align-items: flex-end;
     padding: 0px;
-    gap: 8px;
+    gap: 0px;
 }
