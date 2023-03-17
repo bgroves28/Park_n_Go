@@ -34,6 +34,12 @@ body {
     width: 50%;
 }
 
+.help_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1 {
 
     font-family: 'Lexend';
@@ -237,4 +243,20 @@ hr {
     padding: 20px;
     gap: 24px;
 
+}
+
+.help_title {
+font-size: 30px;
+}
+
+.faq_header {
+    color: #FFC857;
+}
+
+.faq_item {
+   
+}
+
+.faq_body {
+    font-size: 16px;
 }
