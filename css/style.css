@@ -76,6 +76,14 @@ input {
     background-color: #FFC857;
 }
 
+.btn-logout-txt {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 16;
+    background-color: black;
+}
+
 .body-copy {
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
@@ -232,7 +240,7 @@ footer {
 }
 
 hr {
-    border: 2px solid black;
+    border: 1px solid black;
     width: 75%;
 }
 
@@ -253,10 +261,14 @@ font-size: 30px;
     color: #FFC857;
 }
 
-.faq_item {
-   
-}
-
 .faq_body {
     font-size: 16px;
+}
+
+.sidenav_icons {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
 }
