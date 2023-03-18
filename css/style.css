@@ -104,7 +104,7 @@ h3 {
 
 input {
     color: white;
-    width: 100%;
+   /* width: 100%;*/
     padding: 12px;
     height: 20px;
     border: none;
@@ -294,6 +294,8 @@ hr {
     position: relative; /*needed to make just the card link*/
 }
 
+
+
 .card_bottom {
     margin-bottom: 20px;
 }
@@ -320,6 +322,9 @@ hr {
     gap: 150px;
 }
 
+.align_left {
+    text-align: left;
+}
 
 
 
