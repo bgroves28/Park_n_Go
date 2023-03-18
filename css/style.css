@@ -28,6 +28,10 @@ body {
 
 /**********************************/
 
+
+.time_select {
+    border-radius: 10px;
+}
 .flex_together {
     display: flex;
     flex-direction: row;
@@ -48,6 +52,8 @@ body {
     text-align: right;
     font-weight: 100;
 }
+
+
 
 .center {
     display: block;
@@ -188,6 +194,16 @@ a {
     gap: 10px;
 }
 
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
 .underline {
     text-decoration: underline #FFC857;
     text-decoration-thickness: 3px;
@@ -292,6 +308,12 @@ hr {
     padding: 16px;
     gap: 150px;
 }
+
+
+
+
+
+
 
 /**********************************************************************/
 /*Side Navigation CSS*/
@@ -400,4 +422,9 @@ footer {
     align-items: flex-end;
     padding: 0px;
     gap: 0px;
+}
+
+
+progress {
+    color: #FFC857;
 }
