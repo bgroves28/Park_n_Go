@@ -58,95 +58,63 @@
 
 <body>
     <div class="flex_together">
-        <h1>Choose Parking Lot</h1>
+        <h1>Vehicle Registration</h1>
         <img src="images/x_icon.svg" onclick="history.back()">
     </div>
 
-    <div class="flex_together">
-        <div>
-            <h3 class="signature-txt">Start</h3>
-            <input class="time_select" type="time" id="appt" name="appt" min="09:00" max="18:00" required>
-        </div>
-        <div>
-            <h3 class="signature-txt">End</h3>
-            <input class="time_select" type="time" id="appt" name="appt" min="09:00" max="18:00" required>
-        </div>
+    <div class="search_input column">
+        <p>Liscense Plate Number</p>
+        <input type="text" id="fname" name="fname" value="John"><br>
     </div>
+
+
+    <form>
+
+        <div class="vehicle">
+            <p>Liscense Plate Number</p>
+            <input type="text" id="fname" name="fname" value="John"><br>
+        </div>
+
+        <div>
+            <label for="lname">State Registered</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        </div>
+
+        <div>
+            <label for="lname">Vehicle Type</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        </div>
+
+
+    </form>
+
+
+    <form>
+
+
+        <div class="search_input search_venue">
+            <img src="images/footer_email.svg">
+            <input type="text" id="email" name="email" placeholder="Email"><br>
+        </div>
+        <div class="search_input search_venue">
+            <img src="images/name_icon.svg">
+            <input type="text" id="password" name="pass" placeholder="First & Last Name">
+
+        </div>
+        <div class="search_input search_venue">
+            <img src="images/lock_icon.svg">
+            <input type="text" id="password" name="pass" placeholder="Password">
+
+        </div>
+
+
+    </form>
 
     <div>
-        <h2>Parking Lot Map</h2>
-        <img src="images/lot_map.svg" class="help_center">
+        <a href="#.html">
+            <btn class="btn btn-txt center">Continue</btn>
+        </a>
     </div>
-
-    <div>
-        <h2>Parking Sections</h2>
-        <p>Select a section</p>
-
-        <!--Beginning of Section Card-->
-        <div class="card card_txt card_bottom together">
-            <h1 class="signature-txt">A</h1>
-
-            <div class="column">
-                <div class="row">
-                    <div class="column">
-                        <p class="signature-txt">Availability</p>
-                        <p>#/#</p>
-                    </div>
-                    <div class="column">
-                        <p class="signature-txt">$/hour</p>
-                        <p>$$$</p>
-                    </div>
-                </div>
-
-                <progress id="file" value="32" max="100"> 32% </progress>
-            </div>
-            <a href="vehicle.html" class="card_link"></a>
-        </div><!--END of Section Card-->
-
-        <!--Beginning of Section Card-->
-        <div class="card card_txt card_bottom together">
-            <h1 class="signature-txt">B</h1>
-
-            <div class="column">
-                <div class="row">
-                    <div class="column">
-                        <p class="signature-txt">Availability</p>
-                        <p>#/#</p>
-                    </div>
-                    <div class="column">
-                        <p class="signature-txt">$/hour</p>
-                        <p>$$$</p>
-                    </div>
-                </div>
-
-                <progress id="file" value="32" max="100"> 32% </progress>
-            </div>
-            <a href="vehicle.html" class="card_link"></a>
-        </div><!--END of Section Card-->
-
-        <!--Beginning of Section Card-->
-        <div class="card card_txt card_bottom together">
-            <h1 class="signature-txt">C</h1>
-
-            <div class="column">
-                <div class="row">
-                    <div class="column">
-                        <p class="signature-txt">Availability</p>
-                        <p>#/#</p>
-                    </div>
-                    <div class="column">
-                        <p class="signature-txt">$/hour</p>
-                        <p>$$$</p>
-                    </div>
-                </div>
-
-                <progress id="file" value="32" max="100"> 32% </progress>
-            </div>
-            <a href="vehicle.html" class="card_link"></a>
-        </div><!--END of Section Card-->
-
-    </div>
-
 </body>
 
 <!--Beginning of Footer-->

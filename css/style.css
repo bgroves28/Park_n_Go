@@ -28,6 +28,17 @@ body {
 
 /**********************************/
 
+.vehicle {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 8px;
+gap: 2px;
+background: #212121;
+border-radius: 10px;
+}
+
+
 
 .time_select {
     border-radius: 10px;
