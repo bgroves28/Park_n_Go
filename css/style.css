@@ -30,12 +30,12 @@ body {
 
 .vehicle {
     display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 8px;
-gap: 2px;
-background: #212121;
-border-radius: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 2px;
+    background: #212121;
+    border-radius: 10px;
 }
 
 
@@ -43,6 +43,7 @@ border-radius: 10px;
 .time_select {
     border-radius: 10px;
 }
+
 .flex_together {
     display: flex;
     flex-direction: row;
@@ -104,7 +105,7 @@ h3 {
 
 input {
     color: white;
-   /* width: 100%;*/
+    /* width: 100%;*/
     padding: 12px;
     height: 20px;
     border: none;
@@ -205,12 +206,12 @@ a {
     gap: 10px;
 }
 
-.column{
+.column {
     display: flex;
     flex-direction: column;
 }
 
-.row{
+.row {
     display: flex;
     flex-direction: row;
 }
@@ -291,7 +292,8 @@ hr {
     text-align: center;
     background-color: #212121;
     border-radius: 20px;
-    position: relative; /*needed to make just the card link*/
+    position: relative;
+    /*needed to make just the card link*/
 }
 
 
@@ -301,12 +303,12 @@ hr {
 }
 
 
-.card_link{
+.card_link {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
-    width: 100%; 
+    width: 100%;
 }
 
 .card_txt {
@@ -326,7 +328,14 @@ hr {
     text-align: left;
 }
 
-
+.cancel_card {
+    border-style: solid;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    border-color:#FFC857;
+    border-radius: 20px;
+}
 
 
 
