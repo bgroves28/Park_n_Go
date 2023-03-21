@@ -240,6 +240,7 @@ a {
 .column {
     display: flex;
     flex-direction: column;
+    margin-right: 20px;
 }
 
 .row {
@@ -504,6 +505,7 @@ progress {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    margin-top: 16px;
 }
 
 /* Hide the browser's default checkbox */
@@ -559,4 +561,3 @@ progress {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-
